@@ -36,6 +36,47 @@
   <body>
     <!--------------------------------------- NAV BAR --------------------------------------------------->
 
+    <nav class="navbar navbar-expand-md navbar-light ">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse flex-column align-items-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link disabled"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Disabled</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
     <div class="vimeo-wrapper">
       <iframe
         src="https://player.vimeo.com/video/568245245?background=1&autoplay=1&loop=1&byline=0&title=0"
@@ -45,54 +86,10 @@
         allowfullscreen
       ></iframe>
       <div>
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
-          <div class="container-fluid">
-            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div
-              class="collapse navbar-collapse flex-column align-items-end"
-              id="navbarNav"
-            >
-              <ul class="navbar-nav flex-column">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link disabled"
-                    href="#"
-                    tabindex="-1"
-                    aria-disabled="true"
-                    >Disabled</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-
         <div class="container home-container">
-          <div class="row home-text">
-            <div class="col">
-              <p>
+          <div class="row home-row">
+            <div class="col home-col">
+              <p class="home-text">
                 We create powerful visual content for brands that help drive
                 sales, growth and engagement.
               </p>
