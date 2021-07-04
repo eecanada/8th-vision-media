@@ -52,8 +52,20 @@ body {
   justify-content: center;
   align-items: center;
   color: #fff;
+  position: relative;
 }
 
 .home-text {
   text-align: center;
+}
+
+.col-logo {
+  position: absolute;
+  left: -3rem;
+  bottom: 2rem;
+}
+
+
+.vision-media-logo{
+  width:3rem
 }
