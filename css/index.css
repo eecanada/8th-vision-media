@@ -55,8 +55,14 @@ body {
   position: relative;
 }
 
+.home-row {
+  padding: 0 10rem 0 10rem;
+}
+
 .home-text {
   text-align: center;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
 }
 
 .col-logo {
@@ -65,11 +71,14 @@ body {
   bottom: 2rem;
 }
 
-
-.vision-media-logo{
-  width:3rem
+.vision-media-logo {
+  width: 3rem;
 }
 
-a{
-  color: #fff!important;
+a {
+  color: #fff !important;
+}
+
+.fa {
+  font-size: 2rem;
 }
