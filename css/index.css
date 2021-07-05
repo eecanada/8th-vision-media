@@ -59,6 +59,24 @@ body {
   padding: 0 10rem 0 10rem;
 }
 
+@media screen and (max-width: 767px) {
+  .navbar-nav {
+    margin-right: 0;
+  }
+  .home-row {
+    padding: 0 3rem 0 3rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-nav {
+    margin-right: 0;
+  }
+  .home-row {
+    padding: 0 3rem 0 3rem;
+  }
+}
+
 .home-text {
   text-align: center;
   font-size: 1.2rem;
@@ -75,6 +93,20 @@ body {
   width: 3rem;
 }
 
+@media screen and (max-width: 575px) {
+  .home-row {
+    padding: 0 1rem 0 1rem;
+  }
+  .home-text{
+    font-size: 1rem;
+  }
+  .vision-media-logo {
+    width: 2rem;
+  }
+  
+}
+
+
 a {
   color: #fff !important;
 }
@@ -83,6 +115,6 @@ a {
   font-size: 2rem;
 }
 
-ul{
+ul {
   text-align: center;
 }
