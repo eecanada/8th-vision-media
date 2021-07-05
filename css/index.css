@@ -44,6 +44,14 @@ body {
   color: #fff;
 }
 
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
 .home-container {
   height: 100vh;
   z-index: 1000;
@@ -97,15 +105,13 @@ body {
   .home-row {
     padding: 0 1rem 0 1rem;
   }
-  .home-text{
+  .home-text {
     font-size: 1rem;
   }
   .vision-media-logo {
     width: 2rem;
   }
-  
 }
-
 
 a {
   color: #fff !important;
@@ -118,3 +124,20 @@ a {
 ul {
   text-align: center;
 }
+
+.myIcon{
+  z-index: 1000;
+}
+
+/* .hide {
+  border: 1px solid #ccc;
+  display: none;
+  font-size: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.myIcon:hover .hide {
+  display: block;
+} */
