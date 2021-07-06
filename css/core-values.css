@@ -12,7 +12,7 @@ body {
   color: #fff;
 }
 
-p{
+p {
   font-size: 14px;
   line-height: 1.5;
 }
@@ -45,7 +45,66 @@ a {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-
-.row-one, .row-two, .row-three, .row-four{
+.row-one,
+.row-two,
+.row-three,
+.row-four,
+.row-five {
   margin-top: 4rem;
+}
+
+.row-five {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.row-six {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+form {
+  border-bottom: 2rem;
+}
+
+.newsletter-input {
+  border-radius: 5px;
+  outline: 0;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border: 0;
+}
+
+.newsletter-button {
+  border-radius: 30px;
+  outline: 0;
+  border: 1px solid #fff;
+  background: black;
+  color: white;
+  padding: 0.5rem 3rem 0.5rem 3rem;
+  font-size: 12px;
+  margin-left:1rem
+}
+
+.newsletter-button:hover {
+  background: white;
+  color: black;
+  transition: 0.5s;
+}
+
+::placeholder {
+  color: #cacaca;
+  text-align: center;
+  font-size: 12px;
+}
+
+.vision-footer-logo{
+  width: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
