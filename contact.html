@@ -29,7 +29,7 @@
 
     <!-- CSS SHEETS -->
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/our-people.css" />
+    <link rel="stylesheet" href="css/contact.css" />
 
     <title>8th Vision Media | Real Estate Video and Photo Production</title>
     <link
@@ -42,7 +42,7 @@
     <!--------------------------------------- NAV BAR --------------------------------------------------->
     <nav class="navbar navbar-expand-xxxxlg">
       <div class="container-fluid">
-        <a class="navbar-brand mx-auto" href="#">
+        <a class="navbar-brand mx-auto" href="./index.html">
           <h3 class="nav-bar-text">8th Vision</h3>
         </a>
         <button
@@ -74,37 +74,61 @@
       </div>
     </nav>
 
-    <!-- <div>
-        <div class="container-fluid home-container">
-          <div class="row home-row">
-            <div class="col home-col">
-              <p class="home-text">
-                We create powerful visual content for brands that help drive
-                sales, growth and engagement.
+    <div class="container contact-container">
+      <div class="row contact-row">
+        <div class="col contact-col">
+          <h1 class="contact-text">Let's Build Your Brand.</h1>
+          <div>
+            <form
+              class="contact-form"
+              action="https://formspree.io/f/xgerzbqv"
+              method="POST"
+            >
+              <label for="name">Name</label>
+              <input type="text" name="Name" id="name" />
+              <label for="email">Email</label>
+              <input type="email" name="Email" id="email" />
+              <label for="textarea">Enquiry</label>
+              <textarea
+                name="Enquiry"
+                id="textarea"
+                cols="40"
+                rows="5"
+              ></textarea>
+              <p>
+                This site is protected by reCAPTCHA and the Google Privacy
+                Policy and Terms of Service apply.
               </p>
-            </div>
+              <button class="form-button" type="submit">Let's Do This!</button>
+            </form>
           </div>
-          <div class="row fa-row">
-            <div class="col fa-col">
-              <span
-                ><i class="fab fa-instagram fa-2x">
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i
-                ></span
-              >
-              <span><i class="far fa-envelope fa-2x"></i></span>
-            </div>
-          </div>
+        </div>
 
-          <div class="row row-logo">
-            <div class="col col-logo">
-              <img
-                class="vision-media-logo"
-                src="./images/8th-vision-logo.png"
-              />
+        <div class="col">
+          <div>
+            <h1>
+              We create visual content for brands that drive sales, growth and
+              engagement.
+            </h1>
+            <p>
+              Photography and video production, and strategic content design
+              that works creatively to amplify your brand and guide you on the
+              path to hit your goals sooner.
+            </p>
+          </div>
+          <div class="address">
+            <div>
+              <h3>Our Studio Come Say Hi</h3>
+              <h5>Address</h5>
+              <p>Los Angeles, CA 90201</p>
+            </div>
+            <div>
+              <button class="meet-the-team">Meet the team</button>
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
