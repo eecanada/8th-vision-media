@@ -45,7 +45,7 @@ a {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-form {
+.form {
   display: flex;
   flex-direction: column;
   width: 30rem;
@@ -64,28 +64,14 @@ form {
   margin-left: 2rem;
 }
 
-/* 
-.row-one,
-.row-two,
-.row-three,
-.row-four,
-.row-five {
-  margin-top: 4rem;
-}
-
-.row-five {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
 .row-six {
   text-align: center;
   margin-bottom: 2rem;
 }
 
-form {
+/* form {
   border-bottom: 2rem;
-}
+} */
 
 .newsletter-input {
   border-radius: 5px;
@@ -127,4 +113,4 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-} */
+}
