@@ -77,7 +77,7 @@
     <div class="container contact-container">
       <div class="row contact-row">
         <div class="col contact-col">
-          <h1 class="contact-text">Let's Build Your Brand.</h1>
+          <h2 class="contact-text">Let's Build Your Brand.</h2>
           <div>
             <form
               class="contact-form form"
@@ -85,19 +85,34 @@
               method="POST"
             >
               <label for="name">Name</label>
-              <input type="text" name="Name" id="name" />
+              <input
+                class="place-holder"
+                type="text"
+                name="Name"
+                id="name"
+                placeholder="Type your name"
+              />
               <label for="email">Email</label>
-              <input type="email" name="Email" id="email" />
+              <input
+                type="email"
+                name="Email"
+                id="email"
+                placeholder="Type your email"
+              />
               <label for="textarea">Enquiry</label>
               <textarea
+                placeholder="How can we help you?"
                 name="Enquiry"
                 id="textarea"
                 cols="40"
                 rows="5"
               ></textarea>
-              <p>
-                This site is protected by reCAPTCHA and the Google Privacy
-                Policy and Terms of Service apply.
+              <p class="rereCAPTCHA-text">
+                This site is protected by reCAPTCHA and the Google
+                <a href="https://policies.google.com/privacy">Privacy Policy</a>
+                and
+                <a href="https://policies.google.com/terms">Terms of Service</a>
+                apply.
               </p>
               <button class="form-button" type="submit">Let's Do This!</button>
             </form>
@@ -106,29 +121,32 @@
 
         <div class="col">
           <div>
-            <h1>
+            <h2>
               We create visual content for brands that drive sales, growth and
               engagement.
-            </h1>
+            </h2>
             <p>
               Photography and video production, and strategic content design
               that works creatively to amplify your brand and guide you on the
               path to hit your goals sooner.
             </p>
           </div>
-          <div class="address">
-            <div>
-              <h3>Our Studio Come Say Hi</h3>
-              <h5>Address</h5>
+          <div class="row">
+            <div class="col">
+              <h3>
+                Our Studio <br />
+                Come Say Hi.
+              </h3>
+              <h4>Address</h4>
               <p>Los Angeles, CA 90201</p>
             </div>
-            <div>
-              <button class="meet-the-team">Meet the team</button>
+            <div class="col">
+              <button class="meet-the-team-button">Meet the team</button>
             </div>
           </div>
           <div class="row">
             <div class="col">
-              <h3>Email</h3>
+              <h4>Email</h4>
               <p>create@8thvisiomedia.com</p>
               <div>
                 <i class="fab fa-instagram"></i>
@@ -137,19 +155,19 @@
             </div>
             <div class="col">
               <h3>Phone</h3>
-              <h4>323 620 6424</h4>
+              <p>323 620 6424</p>
             </div>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col">
+        <div class="col newsletter-text">
           <h2>Stay in the loop — sign up for our weekly roundups and tips!</h2>
         </div>
       </div>
       <div class="row row-six">
         <div class="col">
-          <form action="">
+          <form class="mail-chimp" action="">
             <label for="email"><b></b></label>
             <input
               class="newsletter-input"
