@@ -28,7 +28,7 @@ p {
   margin-right: 3rem;
 }
 
-.invisible-buttom{
+.invisible-buttom {
   visibility: hidden;
 }
 
@@ -88,7 +88,17 @@ p {
   flex-direction: column;
   width: 30rem;
   outline: 0;
+}
+
+.form input,
+.form textarea {
   border-radius: 5px;
+  outline: 0;
+  border: 1px solid #a1a1a1;
+}
+
+.form textarea {
+  height: auto;
 }
 
 .form input:focus,
@@ -166,10 +176,19 @@ select:focus {
   transition: 0.5s;
 }
 
-.social-media-icons{
+.social-media-icons {
   display: flex;
   flex-direction: row;
-  
+}
+
+.email-link {
+  text-decoration: none;
+}
+
+.email-link:hover,
+.email-link:focus, .email-link:visited{
+  text-decoration: underline;
+  color: #dbdbdb !important;
 }
 
 .row-six {
