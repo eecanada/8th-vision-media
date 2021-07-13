@@ -28,6 +28,10 @@ p {
   margin-right: 3rem;
 }
 
+.invisible-buttom{
+  visibility: hidden;
+}
+
 .nav-bar-text {
   margin: 0;
   color: #fff;
