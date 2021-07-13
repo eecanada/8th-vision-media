@@ -57,7 +57,8 @@ a {
 
 h2,
 h3,
-h4 {
+h4,
+h5 {
   letter-spacing: 2px;
   line-height: 1.5;
   font-weight: 900;
@@ -176,13 +177,12 @@ select:focus {
   transition: 0.5s;
 }
 
-.email-col{
-  margin-bottom: .5rem;
+.email-col {
+  margin-bottom: 0.5rem;
 }
 
 .email-link {
   text-decoration: none;
-  
 }
 
 .email-link:hover,
@@ -224,7 +224,7 @@ select:focus {
 .newsletter-input {
   border-radius: 5px;
   outline: 0;
-  padding: 0.5rem 2rem 0.5rem 2rem;
+  padding: 5px 5px;
   border: 0;
 }
 
