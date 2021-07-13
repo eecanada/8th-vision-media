@@ -67,7 +67,6 @@ body {
   padding: 0 10rem 0 10rem;
 }
 
-
 .home-text {
   text-align: center;
   font-size: 1.2rem;
@@ -100,9 +99,6 @@ ul {
   z-index: 1000;
 }
 
-
-
-
 @media screen and (min-width: 1399px) {
   .home-row {
     padding: 0 20rem 0 20rem;
@@ -120,7 +116,6 @@ ul {
   }
 }
 
-
 @media screen and (max-width: 767px) {
   .navbar-nav {
     margin-right: 0;
@@ -129,7 +124,6 @@ ul {
     padding: 0 3rem 0 3rem;
   }
 }
-
 
 @media screen and (max-width: 575px) {
   .home-row {
@@ -143,10 +137,9 @@ ul {
   }
 }
 
-
-.myIcon{
+.myIcon {
   margin-left: 3rem;
-  margin-right:3rem;
+  margin-right: 3rem;
 }
 
 .hide {
@@ -160,7 +153,13 @@ ul {
 }
 
 .myIcon:hover .hide {
-  visibility:visible;
-  opacity:1;
-  
+  visibility: visible;
+  opacity: 1;
+}
+
+@media screen and (max-width: 515px) {
+  .fa-col{
+    display: flex;
+    flex-direction: row;
+  }
 }
