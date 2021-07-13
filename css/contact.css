@@ -46,8 +46,9 @@ a {
 }
 
 .contact-row {
-  margin-top: 6rem;
-  padding: 0 5rem;
+  margin-top: 10rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
 }
 
 h2,
@@ -68,6 +69,10 @@ p {
   margin-bottom: 1rem;
   color: #e5e5e5;
   line-height: 1.5;
+}
+
+.contact-col-form {
+  margin-right: 3rem;
 }
 
 .contact-text {
@@ -130,6 +135,10 @@ select:focus {
   transition: 0.5s;
 }
 
+.contact-col-contact {
+  margin-left: 3rem;
+}
+
 .address {
   display: flex;
   flex-direction: row;
@@ -151,6 +160,12 @@ select:focus {
   background: white;
   color: black;
   transition: 0.5s;
+}
+
+.social-media-icons{
+  display: flex;
+  flex-direction: row;
+  
 }
 
 .row-six {
