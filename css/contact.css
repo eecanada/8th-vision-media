@@ -318,6 +318,10 @@ select:focus {
   .newsletter-input{
     margin-bottom: 1rem;
   }
+  .contact-row {
+    margin-top: 5rem;
+    
+  }
 }
 
 
