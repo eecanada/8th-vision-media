@@ -171,7 +171,6 @@ select:focus {
 }
 
 .meet-the-team-button:hover {
-  margin-left: 2rem;
   background: white;
   color: black;
   transition: 0.5s;
@@ -269,3 +268,71 @@ select:focus {
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 1399px) {
+  .contact-row {
+    margin-right: 0rem;
+    margin-left: 0rem;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .team-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .meet-the-team-button {
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+  .social-media-icons {
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .form {
+    width: 100%;
+  }
+  .contact-col-form {
+    margin-right: 0rem;
+  }
+  .contact-col-contact {
+    margin-left: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .form {
+    width: 100%;
+  }
+  .contact-col-form {
+    margin-right: 0rem;
+  }
+  .contact-col-contact {
+    margin-left: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  .newsletter-input{
+    margin-bottom: 1rem;
+  }
+}
+
+
+
+/*
+
+@media (max-width: 1109px) {
+  .meet-the-team-button {
+    margin-left: 0;
+    border-radius: 30px;
+    outline: 0;
+    border: 1px solid #fff;
+    background: black;
+    color: white;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    font-size: 12px;
+}
+} */

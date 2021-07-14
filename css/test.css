@@ -51,15 +51,14 @@ a {
 
 .contact-row {
   margin-top: 10rem;
-  margin-right: 10rem;
-  margin-left: 10rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
 }
-
-
 
 h2,
 h3,
-h4 {
+h4,
+h5 {
   letter-spacing: 2px;
   line-height: 1.5;
   font-weight: 900;
@@ -90,8 +89,17 @@ p {
   flex-direction: column;
   width: 30rem;
   outline: 0;
+}
+
+.form input,
+.form textarea {
   border-radius: 5px;
-  margin: auto;
+  outline: 0;
+  border: 1px solid #a1a1a1;
+}
+
+.form textarea {
+  height: auto;
 }
 
 .form input:focus,
@@ -163,15 +171,43 @@ select:focus {
 }
 
 .meet-the-team-button:hover {
-  margin-left: 2rem;
   background: white;
   color: black;
   transition: 0.5s;
 }
 
+.email-col {
+  margin-bottom: 0.5rem;
+}
+
+.email-link {
+  text-decoration: none;
+}
+
+.email-link:hover,
+.email-link:focus,
+.email-link:visited {
+  text-decoration: underline;
+  color: #dbdbdb !important;
+}
+
 .social-media-icons {
   display: flex;
   flex-direction: row;
+}
+
+.social-media-icon {
+  margin: 0 10px 0 0;
+  padding: 10px 10px 6px 10px;
+  -webkit-transition: all ease 0.9s;
+  transition: all ease 0.9s;
+  border: 1px solid rgba(255, 255, 255, 0);
+}
+
+.social-media-icon:hover {
+  cursor: pointer;
+  border: 1px solid #fff;
+  border-radius: 50%;
 }
 
 .row-six {
@@ -187,7 +223,7 @@ select:focus {
 .newsletter-input {
   border-radius: 5px;
   outline: 0;
-  padding: 0.5rem 2rem 0.5rem 2rem;
+  padding: 5px 5px;
   border: 0;
 }
 
@@ -232,3 +268,71 @@ select:focus {
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 1399px) {
+  .contact-row {
+    margin-right: 0rem;
+    margin-left: 0rem;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .team-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .meet-the-team-button {
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+  .social-media-icons {
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .form {
+    width: 100%;
+  }
+  .contact-col-form {
+    margin-right: 0rem;
+  }
+  .contact-col-contact {
+    margin-left: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .form {
+    width: 100%;
+  }
+  .contact-col-form {
+    margin-right: 0rem;
+  }
+  .contact-col-contact {
+    margin-left: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  .newsletter-input{
+    margin-bottom: 1rem;
+  }
+}
+
+
+
+/*
+
+@media (max-width: 1109px) {
+  .meet-the-team-button {
+    margin-left: 0;
+    border-radius: 30px;
+    outline: 0;
+    border: 1px solid #fff;
+    background: black;
+    color: white;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    font-size: 12px;
+}
+} */
