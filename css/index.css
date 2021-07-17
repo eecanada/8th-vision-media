@@ -1,3 +1,8 @@
+@font-face {
+  font-family: cocogoose-regular;
+  src: url('../fonts/Cocogoose-Classic-Medium-trial.ttf');
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -176,4 +181,20 @@ ul {
     display: flex;
     flex-direction: row;
   }
+}
+
+#mont1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#mont2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#coco1 {
+  font-family: 'cocogoose-regular';
+}
+
+#coco2 {
+  font-family: 'cocogoose-regular';
 }
