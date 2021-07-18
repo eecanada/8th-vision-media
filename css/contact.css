@@ -8,8 +8,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5;
-  background: #0a0a0a;
-  color: #fff;
+  background: #fff;
+  color: rgb(0, 0, 0);
 }
 
 p {
@@ -34,11 +34,11 @@ p {
 
 .nav-bar-text {
   margin: 0;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 a {
-  color: #fff !important;
+  color: rgb(0, 0, 0) !important;
 }
 
 .navbar-collapse {
@@ -46,7 +46,7 @@ a {
 }
 
 .custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .contact-row {
@@ -72,7 +72,7 @@ h2 {
 
 p {
   margin-bottom: 1rem;
-  color: #e5e5e5;
+  color: #919191;
   line-height: 1.5;
 }
 
@@ -95,8 +95,7 @@ p {
 .form textarea {
   border-radius: 5px;
   outline: 0;
-  border: 1px solid #a1a1a1;
-  
+  border: 1px solid #919191;
 }
 
 .form textarea {
@@ -107,7 +106,7 @@ p {
 textarea:focus,
 select:focus {
   outline: none;
-  border: 1px solid #8a8a8a;
+  border: 1px solid #919191;
   background-color: #fff;
   box-shadow: 0 0 5px #cacaca;
 }
@@ -119,7 +118,7 @@ select:focus {
 }
 
 .contact-form ::placeholder {
-  color: #cacaca;
+  color: #919191;
   /* text-indent: 0.5rem; */
   font-size: 14px;
   padding: 12px 4px;
@@ -138,16 +137,18 @@ select:focus {
   margin-bottom: 5rem;
   border-radius: 30px;
   outline: 0;
-  border: 1px solid #fff;
-  background: black;
-  color: white;
+  border: 1px solid rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   padding: 0.5rem 3rem 0.5rem 3rem;
   font-size: 12px;
+  transition: 0.5s ease;
+
 }
 
 .form-button:hover {
-  background: white;
-  color: black;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   transition: 0.5s;
 }
 
@@ -164,16 +165,17 @@ select:focus {
   margin-left: 2rem;
   border-radius: 30px;
   outline: 0;
-  border: 1px solid #fff;
-  background: black;
-  color: white;
+  border: 1px solid rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   padding: 0.5rem 3rem 0.5rem 3rem;
   font-size: 12px;
+  transition: 0.5s ease;
 }
 
 .meet-the-team-button:hover {
-  background: white;
-  color: black;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   transition: 0.5s;
 }
 
@@ -183,13 +185,15 @@ select:focus {
 
 .email-link {
   text-decoration: none;
+  color: #919191 !important;
+  transition: 0.5s ease;
 }
 
 .email-link:hover,
 .email-link:focus,
 .email-link:visited {
   text-decoration: underline;
-  color: #dbdbdb !important;
+  color: #000000 !important;
 }
 
 .social-media-icons {
@@ -207,7 +211,7 @@ select:focus {
 
 .social-media-icon:hover {
   cursor: pointer;
-  border: 1px solid #fff;
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 50%;
 }
 
@@ -238,22 +242,24 @@ select:focus {
 .newsletter-button {
   border-radius: 30px;
   outline: 0;
-  border: 1px solid #fff;
-  background: black;
-  color: white;
+  border: 1px solid rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   padding: 0.5rem 3rem 0.5rem 3rem;
   font-size: 12px;
   margin-left: 1rem;
+  transition: 0.5s ease;
+
 }
 
 .newsletter-button:hover {
-  background: white;
-  color: black;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   transition: 0.5s;
 }
 
 .mail-chimp ::placeholder {
-  color: #cacaca;
+  color: #919191;
   text-align: center;
   font-size: 14px;
 }
@@ -316,16 +322,13 @@ select:focus {
 }
 
 @media screen and (max-width: 411px) {
-  .newsletter-input{
+  .newsletter-input {
     margin-bottom: 1rem;
   }
   .contact-row {
     margin-top: 5rem;
-    
   }
 }
-
-
 
 /*
 
