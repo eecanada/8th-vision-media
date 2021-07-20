@@ -135,7 +135,7 @@ form {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-250px * 10));
+    transform: translateX(calc(-250px * 5));
   }
 }
 .slider {
@@ -145,7 +145,7 @@ form {
   margin: auto;
   overflow: hidden;
   position: relative;
-  width: 1260px;
+  /* width: 1260px; */
 }
 .slider::before,
 .slider::after {
@@ -166,9 +166,9 @@ form {
   top: 0;
 }
 .slider .slide-track {
-  animation: scroll 30s linear infinite;
+  animation: scroll 19s linear infinite;
   display: flex;
-  width: calc(250px * 14);
+  width: calc(250px * 5);
 }
 .slider .slide {
   height: 100px;
