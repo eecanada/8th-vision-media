@@ -17,6 +17,10 @@ p {
   line-height: 1.5;
 }
 
+.invisible-buttom{
+  visibility: hidden;
+}
+
 .core-row {
   margin-top: 4rem;
 }
