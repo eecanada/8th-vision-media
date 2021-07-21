@@ -99,7 +99,11 @@ video {
 }
 
 .row-five {
-  margin-top: 5rem;
+  margin-top: 2rem;
+}
+
+.row-logo{
+  margin-top: -1rem;
 }
 
 /* @media screen and (max-width: 994px) {
