@@ -18,6 +18,7 @@ p {
 
 .first-row {
   display: flex;
+  margin-top: 5rem;
 }
 
 .box-container {
