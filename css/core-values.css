@@ -138,6 +138,27 @@ form {
   align-items: center;
 }
 
+.vision-footer-logo {
+  width: 3rem;
+  margin-bottom: 0.5rem;
+  position: absolute;
+  left: 2rem;
+  bottom: 1rem;
+}
+
+.footer-text {
+  position: absolute;
+  right: 2rem;
+  bottom: 1rem;
+  color: #919191;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 
 /* Slider */
