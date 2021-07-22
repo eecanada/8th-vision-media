@@ -258,28 +258,25 @@ select:focus {
 }
 
 .slider li.anim1 {
-  animation: cycle 10s linear infinite;
+  animation: cycle 5s linear infinite;
 }
 
 .slider li.anim2 {
-  animation: cycle2 10s linear infinite;
+  animation: cycle2 5s linear infinite;
 }
 
 .slider li.anim3 {
-  animation: cycle3 10s linear infinite;
+  animation: cycle3 5s linear infinite;
 }
 
 .slider li.anim4 {
-  animation: cycle4 10s linear infinite;
+  animation: cycle4 5s linear infinite;
 }
 
 .slider li.anim5 {
-  animation: cycle5 10s linear infinite;
+  animation: cycle5 5s linear infinite;
 }
 
-.slider li.anim6 {
-  animation: cycle6 10s linear infinite;
-}
 
 .slider:hover li {
   animation-play-state: paused;
