@@ -557,3 +557,71 @@ select:focus {
     display: block;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 90%;
+  }
+  .row-six {
+    text-align: center;
+    margin-bottom: 2rem;
+    width: 60%;
+    margin: auto;
+  }
+  .footer-text {
+    position: static;
+    right: 2rem;
+    bottom: 1rem;
+    color: #919191;
+  }
+  .vision-footer-logo {
+    width: 3rem;
+    margin-bottom: 0.5rem;
+    position: static;
+    left: 2rem;
+    bottom: 1rem;
+  }
+  .text-carousel-row {
+    width: 100%;
+    margin: auto;
+  }
+
+  .slider {
+    width: 100%;
+  }
+  .slider li {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+  .break {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  .slider .quote {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .header-carousel {
+    font-size: 1rem;
+  }
+  .social-media-row {
+    padding-right: 0;
+  }
+  .col-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .row-six {
+    text-align: center;
+    margin-bottom: 2rem;
+    width: 80%;
+    margin: auto;
+  }
+}
