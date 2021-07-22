@@ -220,6 +220,7 @@ select:focus {
   height: 100px;
   background: black;
   margin: auto;
+  margin-bottom: 3rem;
 }
 
 .slider {
@@ -229,7 +230,7 @@ select:focus {
   overflow: visible;
   position: relative;
   color: white;
-  margin-bottom: 3rem;
+  
 }
 
 .mask {
