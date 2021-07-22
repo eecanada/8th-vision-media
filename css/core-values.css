@@ -187,6 +187,10 @@ video {
   display: none;
 }
 
+.big-footer{
+  position: relative;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
