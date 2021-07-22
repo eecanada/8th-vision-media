@@ -65,7 +65,7 @@ p {
   line-height: 1.5;
 }
 
-.contact-container{
+.contact-container {
   position: relative;
 }
 
@@ -541,4 +541,19 @@ select:focus {
   right: 2rem;
   bottom: 1rem;
   color: #919191;
+}
+
+@media screen and (max-width: 991px) {
+  .form-container {
+    width: 100%;
+  }
+  .video-container {
+    width: 100%;
+  }
+  .content-slider {
+    width: 100%;
+  }
+  .break {
+    display: block;
+  }
 }
