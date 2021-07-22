@@ -154,16 +154,23 @@ select:focus {
   width: 100%;
 }
 
-
-
 .col-two{
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
+.col-phone{
+  text-align: center;
+}
+
 .email-col {
   margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.email-col p{
+  margin-bottom: 0;
 }
 
 .email-link {
@@ -182,6 +189,7 @@ select:focus {
 .social-media-icons {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .social-media-icon {
