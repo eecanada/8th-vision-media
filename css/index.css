@@ -37,8 +37,6 @@ body {
   /* z-index: -1; */
 }
 
-
-
 .navbar-nav {
   display: flex;
   flex-direction: column;
@@ -108,7 +106,6 @@ body {
   width: 100%;
   padding: 1rem 2rem;
   transform: scale(1.1);
-
 }
 
 .col-logo {
@@ -200,6 +197,17 @@ ul {
 .myIcon:hover .hide {
   visibility: visible;
   opacity: 1;
+}
+
+@media screen and (max-width: 576px) {
+  .vimeo-wrapper {
+    background-image: url('../images/home-screen-bg.jpg');
+    background-position: center; 
+    background-size: cover;
+  }
+  .vimeo-wrapper iframe {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 515px) {
