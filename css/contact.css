@@ -160,6 +160,7 @@ select:focus {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 .col-phone {
@@ -480,7 +481,7 @@ select:focus {
 }
 
 .row-five {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .row-logo {
