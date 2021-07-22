@@ -34,6 +34,10 @@ a {
   text-align: center;
 }
 
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.1rem;
+}
+
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -65,6 +69,11 @@ p {
   line-height: 1.5;
 }
 
+.form-row{
+  width: 80%;
+  margin: auto;
+}
+
 .contact-container {
   position: relative;
 }
@@ -86,6 +95,7 @@ p {
 .contact-text {
   text-align: center;
 }
+
 
 .form input,
 .form textarea {
@@ -147,6 +157,8 @@ select:focus {
   transition: 0.5s;
 }
 
+
+
 .video-container {
   width: 80%;
   margin: auto;
@@ -156,10 +168,16 @@ select:focus {
   width: 100%;
 }
 
+.phone-div{
+  text-align: center;
+  margin-top: 1rem;
+}
+
 .col-two {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 2rem;
 }
 
 .col-phone {
@@ -480,7 +498,7 @@ select:focus {
 }
 
 .row-five {
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .row-logo {
