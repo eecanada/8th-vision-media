@@ -69,7 +69,7 @@ p {
   line-height: 1.5;
 }
 
-.form-row{
+.form-row {
   width: 80%;
   margin: auto;
 }
@@ -95,7 +95,6 @@ p {
 .contact-text {
   text-align: center;
 }
-
 
 .form input,
 .form textarea {
@@ -157,8 +156,6 @@ select:focus {
   transition: 0.5s;
 }
 
-
-
 .video-container {
   width: 80%;
   margin: auto;
@@ -168,7 +165,11 @@ select:focus {
   width: 100%;
 }
 
-.phone-div{
+.contact-col {
+  margin: auto;
+}
+
+.phone-div {
   text-align: center;
   margin-top: 1rem;
 }
@@ -561,6 +562,10 @@ select:focus {
   color: #919191;
 }
 
+.responsive-contact{
+  display: none;
+}
+
 @media screen and (max-width: 991px) {
   .form-container {
     width: 100%;
@@ -609,6 +614,17 @@ select:focus {
   }
   .slider li {
     width: 100%;
+  }
+  .form-row {
+    width: 100%;
+    margin: auto;
+  }
+  .contact-col {
+    display: none;
+  }
+  .responsive-contact{
+    display: block;
+    margin: auto;
   }
 }
 
