@@ -346,6 +346,9 @@ video {
     width: 80%;
     margin: auto;
   }
+  .row-five {
+    margin-bottom: 0;
+  }
 }
 
 /* Slider */
