@@ -65,6 +65,10 @@ p {
   line-height: 1.5;
 }
 
+.contact-container{
+  position: relative;
+}
+
 .col-one {
   width: 100%;
 }
@@ -231,7 +235,6 @@ select:focus {
   overflow: visible;
   position: relative;
   color: white;
-  
 }
 
 .mask {
@@ -474,4 +477,68 @@ select:focus {
     opacity: 0;
     z-index: 0;
   }
+}
+
+.row-five {
+  margin-top: 2rem;
+}
+
+.row-logo {
+  margin-top: -1rem;
+}
+
+.logo-text {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.logo-images-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.row-five {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.row-six {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+#mc_embed_signup_scroll ::placeholder {
+  color: #cacaca;
+  text-align: center;
+  font-size: 12px;
+}
+
+.vision-footer-logo {
+  width: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vision-footer-logo {
+  width: 3rem;
+  margin-bottom: 0.5rem;
+  position: absolute;
+  left: 2rem;
+  bottom: 1rem;
+}
+
+.footer-text {
+  position: absolute;
+  right: 2rem;
+  bottom: 1rem;
+  color: #919191;
 }
