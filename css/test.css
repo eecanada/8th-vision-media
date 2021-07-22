@@ -229,6 +229,7 @@ select:focus {
   overflow: visible;
   position: relative;
   color: white;
+  margin-bottom: 3rem;
 }
 
 .mask {
