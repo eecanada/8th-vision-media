@@ -117,10 +117,12 @@ video {
 
 .core-header{
   width: 80%;
+  display: none;
 }
 
 .text-description{
   width: 80%;
+  text-transform: uppercase;
 }
 
 .row-five {
@@ -128,7 +130,7 @@ video {
 }
 
 .row-logo {
-  margin-top: -3rem;
+  margin-top: -1rem;
 }
 
 .logo-text {
