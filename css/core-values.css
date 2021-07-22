@@ -48,6 +48,10 @@ a {
   text-align: center;
 }
 
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.1rem;
+}
+
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -183,11 +187,11 @@ video {
   display: none;
 }
 
-.footer-row{
+.footer-row {
   display: none;
 }
 
-.big-footer{
+.big-footer {
   position: relative;
 }
 
@@ -268,17 +272,15 @@ video {
   .text-col {
     text-align: center;
   }
-  .row-seven{
+  .row-seven {
     display: none;
   }
-  .footer-row{
+  .footer-row {
     display: block;
     text-align: center;
     margin-top: 1rem;
   }
 }
-
-
 
 @media screen and (max-width: 449px) {
   .text-header {
