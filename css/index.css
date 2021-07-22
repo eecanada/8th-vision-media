@@ -177,6 +177,18 @@ ul {
   .vision-media-logo {
     width: 2rem;
   }
+  .col-logo {
+    position: absolute;
+    left: 2rem;
+    bottom: 4rem;
+  }
+
+  .row-copyright {
+    position: absolute;
+    right: 2rem;
+    bottom: 4rem;
+    font-family: 'Montserrat', sans-serif;
+  }
 }
 
 .myIcon {
@@ -202,7 +214,7 @@ ul {
 @media screen and (max-width: 576px) {
   .vimeo-wrapper {
     background-image: url('../images/home-screen-bg.jpg');
-    background-position: center; 
+    background-position: center;
     background-size: cover;
   }
   .vimeo-wrapper iframe {
