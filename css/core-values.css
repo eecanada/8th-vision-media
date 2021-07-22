@@ -349,6 +349,12 @@ video {
   .row-five {
     margin-bottom: 0;
   }
+  .text-description {
+    
+    font-size: 12px;
+    margin-top:-0.75rem
+  }
+  
 }
 
 /* Slider */
