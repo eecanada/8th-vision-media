@@ -166,7 +166,7 @@ select:focus {
 }
 
 .contact-col {
-  margin: auto;
+  margin-top: 1rem;
 }
 
 .phone-div {
@@ -562,7 +562,7 @@ select:focus {
   color: #919191;
 }
 
-.responsive-contact{
+.responsive-contact {
   display: none;
 }
 
@@ -622,9 +622,15 @@ select:focus {
   .contact-col {
     display: none;
   }
-  .responsive-contact{
+  .responsive-contact {
     display: block;
     margin: auto;
+  }
+  .form-button {
+    margin-bottom: 0;
+  }
+  .text-carousel-col{
+    padding: 0;
   }
 }
 
