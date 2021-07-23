@@ -68,11 +68,11 @@ body {
   justify-content: center;
   align-items: center;
   color: #fff;
-  position: relative;
 }
 
 .home-row {
   padding: 0 10rem 0 10rem;
+  z-index: 1000;
 }
 
 .home-text {
@@ -227,8 +227,8 @@ ul {
   .vimeo-wrapper iframe {
     display: none;
   }
-  
-  .phone-container{
+
+  .phone-container {
     position: relative;
   }
 }
