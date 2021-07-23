@@ -68,11 +68,11 @@ body {
   justify-content: center;
   align-items: center;
   color: #fff;
-  position: relative;
 }
 
 .home-row {
   padding: 0 10rem 0 10rem;
+  z-index: 1000;
 }
 
 .home-text {
@@ -177,6 +177,7 @@ ul {
 @media screen and (max-width: 575px) {
   .home-row {
     padding: 0 1rem 0 1rem;
+    margin-top: -8rem;
   }
   .home-text {
     font-size: 1rem;
@@ -195,6 +196,7 @@ ul {
     right: 1rem;
     bottom: 0rem;
     font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
   }
 }
 
@@ -226,6 +228,10 @@ ul {
   }
   .vimeo-wrapper iframe {
     display: none;
+  }
+
+  .phone-container {
+    position: relative;
   }
 }
 
