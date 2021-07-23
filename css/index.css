@@ -187,13 +187,13 @@ ul {
   .col-logo {
     position: absolute;
     left: 1rem;
-    bottom: 5rem;
+    bottom: 1rem;
   }
 
   .row-copyright {
     position: absolute;
     right: 1rem;
-    bottom: 4rem;
+    bottom: 0rem;
     font-family: 'Montserrat', sans-serif;
   }
 }
