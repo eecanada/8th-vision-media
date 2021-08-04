@@ -244,7 +244,7 @@ select:focus {
 .content-slider {
   width: 80%;
   height: 100px;
-  background: black;
+  background: white;
   margin: auto;
   margin-bottom: 3rem;
 }
@@ -255,7 +255,7 @@ select:focus {
   margin: 0 auto 0;
   overflow: visible;
   position: relative;
-  color: white;
+  color: black;
 }
 
 .mask {
