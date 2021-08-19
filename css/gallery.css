@@ -65,7 +65,17 @@ a {
   text-align: center;
   margin-bottom: 6rem;
   margin-top: 2rem;
+
 }
+
+.heading-2{
+  text-align: center;
+  margin-bottom: 6rem;
+  margin-top: 2rem;
+  font-family: "Roboto";
+}
+
+
 .video-title-heading{
   margin-bottom: 3rem;
   font-size: 35px;
