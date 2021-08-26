@@ -15,6 +15,7 @@ body {
   line-height: 1.5;
 }
 
+
 .vimeo-wrapper {
   position: fixed;
   top: 0;
@@ -37,11 +38,14 @@ body {
   /* z-index: -1; */
 }
 
+.phone-nav{
+  display: none;
+}
+
 .navbar-nav {
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
-  /* margin-right: 4rem; */
   color: #fff;
 }
 
@@ -58,6 +62,11 @@ body {
 
 .navbar-toggler:focus {
   box-shadow: none;
+}
+
+.desktop-nav-container{
+  flex-direction: row;
+  justify-content: center;
 }
 
 .home-container {
@@ -172,6 +181,7 @@ ul {
   .home-row {
     padding: 0 3rem 0 3rem;
   }
+  
 }
 
 @media screen and (max-width: 575px) {
