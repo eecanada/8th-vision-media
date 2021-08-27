@@ -47,6 +47,7 @@ body {
   flex-direction: column;
   margin-top: 1rem;
   color: #fff;
+  font-size: 1.2rem;
 }
 
 .navbar-toggler:focus {
