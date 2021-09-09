@@ -220,6 +220,7 @@ ul {
   opacity: 1;
 }
 
+
 @media screen and (max-width: 576px) {
   .vimeo-wrapper {
     background-image: url('../images/home-screen-bg.jpg');

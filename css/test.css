@@ -47,7 +47,7 @@ body {
   flex-direction: column;
   margin-top: 1rem;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .navbar-toggler:focus {
@@ -70,9 +70,9 @@ body {
   justify-content: center;
 }
 
-/* .nav-link-desktop::after{
+.nav-link-desktop::after{
   content: ' | ';
-} */
+}
 
 @media screen and (max-width: 992px) {
   .phone-nav{
