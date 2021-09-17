@@ -93,8 +93,8 @@ video {
 }
 
 .logo-image {
-  max-width: 50%;
-  max-height: 50%;
+  max-width: 10%;
+  max-height: 10%;
 }
 
 .second-row {
@@ -109,10 +109,10 @@ video {
 
 .text-col {
   text-align: left;
-  max-width: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 2rem 0;
 }
 
 .core-header {
@@ -257,6 +257,7 @@ video {
     font-size: 14px;
     text-align: center;
   }
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -269,6 +270,7 @@ video {
   }
   .text-col {
     margin-top: 1rem;
+    margin-bottom: 0;
   }
   .text-description {
     margin-top: 2rem;
@@ -278,8 +280,9 @@ video {
     font-size: 1rem;
   }
   .logo-image {
-    max-height: 70%;
-    max-width: 70%;
+    max-height: 20%;
+    max-width: 20%;
+    margin-bottom: 1rem;
   }
   #mc_embed_signup {
     width: 60%;
@@ -464,6 +467,3 @@ video {
   flex-direction: column;
 }
 
-.text-description{
-  max-width: none
-}

@@ -221,7 +221,7 @@ video {
 .vision-footer-logo {
   width: 2rem;
   margin-bottom: 0.5rem;
-  display: none;
+  display: block;
 }
 
 .footer-row {
