@@ -250,7 +250,7 @@ select:focus {
 }
 
 .slider {
-  height: 320px;
+  /* height: 320px; */
   width: 680px;
   margin: 0 auto 0;
   overflow: visible;
