@@ -25,10 +25,6 @@ body {
   height: 20px;
 }
 
-
-
-
-
 .vimeo-wrapper {
   position: fixed;
   top: 0;
@@ -272,5 +268,12 @@ ul {
   .fa-col {
     display: flex;
     flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
   }
 }
