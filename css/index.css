@@ -126,6 +126,7 @@ body {
   text-align: center;
   text-decoration: none;
   transition: 0.5s ease;
+  border-bottom: 1px solid rgb(255, 255, 255) !important;
 }
 
 .create-button a {
@@ -137,6 +138,7 @@ body {
   color: rgb(255, 255, 255);
   outline: 0;
   border: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 255, 255) !important;
   font-family: 'cocogoose-regular';
   letter-spacing: 2px;
   width: 100%;
