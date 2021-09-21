@@ -134,13 +134,13 @@ body {
 
 .create-button:hover {
   background-color: rgba(255, 255, 255, 0.3);
-  color: rgb(255, 255, 255);
-  outline: 0;
+  /* color: rgb(255, 255, 255); */
+  /* outline: 0; */
   /* border: 1px solid rgb(255, 255, 255); */
-  font-family: 'cocogoose-regular';
-  letter-spacing: 2px;
-  width: 100%;
-  padding: 1rem 2rem;
+  /* font-family: 'cocogoose-regular'; */
+  /* letter-spacing: 2px; */
+  /* width: 100%; */
+  /* padding: 1rem 2rem; */
   transform: scale(1.1);
 }
 
@@ -204,7 +204,6 @@ ul {
   .home-row {
     padding: 0 3rem 0 3rem;
   }
- 
 }
 
 @media screen and (max-width: 575px) {
@@ -231,8 +230,6 @@ ul {
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
   }
-
-  
 }
 
 .myIcon {
@@ -268,11 +265,6 @@ ul {
   .phone-container {
     position: relative;
   }
-
-  
-  
-
-  
 }
 
 @media screen and (max-width: 515px) {
@@ -280,8 +272,6 @@ ul {
     display: flex;
     flex-direction: row;
   }
-
-  
 }
 
 @media screen and (min-width: 992px) {
@@ -289,33 +279,24 @@ ul {
     padding-right: 0.75rem;
     padding-left: 0.75rem;
   }
-  .desktop-nav-container{
+  .desktop-nav-container {
     display: none !important;
   }
-
- 
 }
 
 .col-copyright {
   margin-bottom: 1rem;
 }
 
-
 @media screen and (max-width: 992px) {
- 
-
-  
   .navbar-nav a {
     list-style-type: none;
     text-align: center;
     display: inline-block;
     margin: 0px;
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
     border: none;
     height: 100%;
     font-size: 1rem;
-    
   }
 }
-
-
