@@ -302,4 +302,7 @@ ul {
   /* width: 100%; */
   /* padding: 1rem 2rem; */
   transform: scale(1.1);
+  backface-visibility: hidden; 
+  transform: translateZ(0); 
+  -webkit-font-smoothing: subpixel-antialiased;
 }
