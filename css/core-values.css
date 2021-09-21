@@ -287,6 +287,8 @@ video {
     max-height: 20%;
     max-width: 20%;
     margin-bottom: 1rem;
+    width: auto;
+    height: auto;
   }
   #mc_embed_signup {
     width: 60%;
