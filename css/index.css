@@ -114,8 +114,6 @@ body {
   width: 100%;
 }
 
-
-
 .col-logo {
   position: absolute;
   left: 2rem;
@@ -146,10 +144,6 @@ a {
 
 ul {
   text-align: center;
-}
-
-.myIcon {
-  z-index: 1000;
 }
 
 @media screen and (min-width: 1399px) {
@@ -204,7 +198,7 @@ ul {
   }
 }
 
-.myIcon {
+/* .myIcon {
   margin-left: 3rem;
   margin-right: 3rem;
 }
@@ -223,6 +217,11 @@ ul {
   visibility: visible;
   opacity: 1;
 }
+
+.myIcon {
+  z-index: 1000;
+}
+*/
 
 @media screen and (max-width: 576px) {
   .vimeo-wrapper {
@@ -278,6 +277,7 @@ ul {
   color: rgb(255, 255, 255);
   outline: 0;
   border: 1px solid rgb(255, 255, 255) !important;
+  border-bottom: 1px solid rgb(208, 14, 14) !important;
   font-family: 'cocogoose-regular';
   letter-spacing: 2px;
   margin: auto;
