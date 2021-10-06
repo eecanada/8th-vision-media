@@ -187,7 +187,32 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- Calendly badge widget begin -->
+<link
+href="https://assets.calendly.com/assets/external/widget.css"
+rel="stylesheet"
+/>
+<script
+src="https://assets.calendly.com/assets/external/widget.js"
+type="text/javascript"
+async
+></script>
+<script type="text/javascript">
+      window.onload = function () {
+        Calendly.initBadgeWidget({
+          url: 'https://calendly.com/8thvisionmedia/15min',
+          text: 'Schedule a Call',
+          color: '#006bff',
+          textColor: '#ffffff',
+          right: 'auto !important',
+          left: '20px !important',
+          branding: false,
+        });
+      };
+</script>
     
     <!-- Calendly badge widget end -->
   </body>
 </html>
+
+
