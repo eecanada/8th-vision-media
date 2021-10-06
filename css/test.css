@@ -15,6 +15,32 @@ body {
   line-height: 1.5;
 }
 
+.calendly-badge-widget {
+  position: fixed;
+  right: 10px;
+  bottom: 200px;
+  z-index: 9998;
+  background: #ffffff54 !important;
+  color: rgb(255, 255, 255);
+}
+
+
+.calendly-badge-widget .calendly-badge-content {
+  display: table-cell;
+  width: auto;
+  height: 78px !important;
+  padding: 10px 100px !important;
+  border-radius: 0px !important;
+  /* box-shadow: rgb(0 0 0 / 25%) 0px 2px 5px; */
+  font-family: 'Merriweather Sans', sans-serif !important;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 22px !important;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
 .navbar-nav a {
   list-style-type: none;
   text-align: center;
@@ -302,3 +328,5 @@ ul {
   background-color: rgba(255, 255, 255, 0.3);
   transform: scale(1.2);
 }
+
+
