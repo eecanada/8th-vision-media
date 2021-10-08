@@ -20,7 +20,7 @@
 
 # Getting Started 
 
-[Click to view page](https://8thvisionproperty.com)
+[Click to view page](https://www.8thvisionmedia.com/)
 
 * On desktop and mobile viewing users land to a stunning video background.
 * With a single call to action button in the center of the home page, users are invited to contact the business immediately. 
