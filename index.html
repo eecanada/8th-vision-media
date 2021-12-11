@@ -32,6 +32,21 @@
       type="image/png"
       href="./images/8-vision-logo-favicon.ico"
     />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-L5JBBHTTSP"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-L5JBBHTTSP');
+    </script>
   </head>
   <body>
     <!--------------------------------------- NAV BAR --------------------------------------------------->
@@ -121,7 +136,7 @@
                 async
               ></script>
               <a
-              style="text-decoration: none; border-right: none;"
+                style="text-decoration: none; border-right: none"
                 href=""
                 onclick="Calendly.initPopupWidget({url: 'https://calendly.com/8thvisionmedia/15min'});return false;"
                 >Schedule A Call</a
