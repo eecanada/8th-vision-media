@@ -314,17 +314,20 @@ form {
   border: 2px solid white;
   background: none;
   margin-bottom: 0.5rem;
+  color: white;
 }
 
 #email {
   border: 2px solid white;
   background: none;
   margin-bottom: 0.5rem;
+  color: white;
 }
 
 #textarea {
   background: none;
   border: 2px solid white;
+  color: white;
 }
 
 ::placeholder {
