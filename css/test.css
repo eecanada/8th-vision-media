@@ -315,6 +315,7 @@ form {
   background: none;
   margin-bottom: 0.5rem;
   color: white;
+  padding: 5px 5px;
 }
 
 #email {
@@ -322,12 +323,14 @@ form {
   background: none;
   margin-bottom: 0.5rem;
   color: white;
+  padding: 5px 5px;
 }
 
 #textarea {
   background: none;
   border: 2px solid white;
   color: white;
+  padding: 5px 5px;
 }
 
 ::placeholder {
