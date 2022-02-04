@@ -314,8 +314,15 @@ form {
   border: 2px solid white;
   background: none;
   margin-bottom: 0.5rem;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 5px 5px;
+}
+
+#name:focus, #email:focus, #textarea:focus {
+  outline: none !important;
+  border: 2px solid white;
+  box-shadow: 0 0 10px #000000;
+  background: rgba(255, 255, 255, 0.486);
 }
 
 #email {
@@ -342,9 +349,9 @@ form {
   border: 2px solid white;
   color: white;
   width: 40%;
-  padding: 0.5rem ;
+  padding: 0.5rem;
   transition: 0.5s ease;
-  margin-top:1rem;
+  margin-top: 1rem;
 }
 
 .form-button:hover {
