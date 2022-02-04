@@ -32,6 +32,58 @@
       type="image/png"
       href="./images/8-vision-logo-favicon.ico"
     />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-L5JBBHTTSP"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-L5JBBHTTSP');
+    </script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = '2.0';
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        'script',
+        'https://connect.facebook.net/en_US/fbevents.js'
+      );
+      fbq('init', '656229728818213');
+      fbq('track', 'PageView');
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=656229728818213&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
   </head>
   <body>
     <!--------------------------------------- NAV BAR --------------------------------------------------->
@@ -80,26 +132,6 @@
                   >Our Work</a
                 >
               </li>
-
-              <li>
-                <!-- Calendly link widget begin -->
-                <link
-                  href="https://assets.calendly.com/assets/external/widget.css"
-                  rel="stylesheet"
-                />
-                <script
-                  src="https://assets.calendly.com/assets/external/widget.js"
-                  type="text/javascript"
-                  async
-                ></script>
-                <a
-                  style="text-decoration: none; border-right: none"
-                  href=""
-                  onclick="Calendly.initPopupWidget({url: 'https://calendly.com/8thvisionmedia/15min'});return false;"
-                  >Schedule A Call</a
-                >
-                <!-- Calendly link widget end -->
-              </li>
             </ul>
           </div>
         </div>
@@ -125,11 +157,28 @@
                 >Video Gallery</a
               >
               <a
-                style="border-right: none; text-decoration: none"
+                style="text-decoration: none"
                 target="_blank"
                 href="https://www.instagram.com/8thvisionmedia/"
                 >Our Work</a
               >
+              <!-- Calendly link widget begin -->
+              <link
+                href="https://assets.calendly.com/assets/external/widget.css"
+                rel="stylesheet"
+              />
+              <script
+                src="https://assets.calendly.com/assets/external/widget.js"
+                type="text/javascript"
+                async
+              ></script>
+              <a
+                style="text-decoration: none; border-right: none"
+                href=""
+                onclick="Calendly.initPopupWidget({url: 'https://calendly.com/8thvisionmedia/15min'});return false;"
+                >Schedule A Call</a
+              >
+              <!-- Calendly link widget end -->
             </div>
           </div>
         </div>
@@ -146,22 +195,46 @@
         <div>
           <div class="container-fluid home-container">
             <div class="row home-row">
-              <div class="col home-col">
-                <!-- <p class="home-text">
-                           We create powerful visual content for brands that help drive
-                           sales, growth and engagement.
-                           </p> -->
-                <button
-                  onClick="window.open('https://www.8thvisionmedia.com/contact');"
-                  class="create-button"
-                >
-                  <a
-                    href="./contact.html
-                           "
-                    >CREATE WITH US
-                  </a>
-                </button>
-              </div>
+              <div class="form-container col">
+              
+                <form
+                   class="contact-form form"
+                   action="https://formspree.io/f/mqkwdjpd"
+                   method="POST"
+                   >
+                   <label for="name">Name</label>
+                   <input style="text-align: left;"
+                      class="place-holder"
+                      type="text"
+                      name="Name"
+                      id="name"
+                      placeholder="Type your name"
+                      />
+                   <label for="email">Email</label>
+                   <input
+                      type="email"
+                      name="Email"
+                      id="email"
+                      placeholder="Type your email"
+                      />
+                   <label for="textarea">Enquiry</label>
+                   <textarea
+                      placeholder="How can we help you?"
+                      name="Enquiry"
+                      id="textarea"
+                      cols="40"
+                      rows="5"
+                      ></textarea>
+                   <p class="rereCAPTCHA-text">
+                      This site is protected by reCAPTCHA and the Google
+                      <a href="https://policies.google.com/privacy">Privacy Policy</a>
+                      and
+                      <a href="https://policies.google.com/terms">Terms of Service</a>
+                      apply.
+                   </p>
+                   <button class="form-button" type="submit">Let's Do This!</button>
+                </form>
+             </div>
             </div>
 
             <!-- <div class="row fa-row text-center">
@@ -191,14 +264,15 @@
                 />
               </div>
             </div>
-            <!-- <div class="row row-copyright">
+            <div class="row row-copyright">
               <div class="col col-copyright">
                 <a>&copy; 2022 8th Vision Media</a>
               </div>
-            </div> -->
+            </div>
           </div>
         </div>
       </div>
+      <div class="overlay"></div>
     </div>
 
     <script
@@ -206,30 +280,6 @@
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossorigin="anonymous"
     ></script>
-
-    <!-- Calendly badge widget begin -->
-    <link
-      href="https://assets.calendly.com/assets/external/widget.css"
-      rel="stylesheet"
-    />
-    <script
-      src="https://assets.calendly.com/assets/external/widget.js"
-      type="text/javascript"
-      async
-    ></script>
-    <script type="text/javascript">
-      window.onload = function () {
-        Calendly.initBadgeWidget({
-          url: 'https://calendly.com/8thvisionmedia/15min',
-          text: 'Schedule a Call',
-          color: '#ffffff54 !important',
-          textColor: '#ffffff',
-          right: 'auto !important',
-          left: '20px !important',
-          branding: false,
-        });
-      };
-    </script>
 
     <!-- Calendly badge widget end -->
   </body>
