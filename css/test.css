@@ -321,8 +321,8 @@ form {
 #name:focus, #email:focus, #textarea:focus {
   outline: none !important;
   border: 2px solid white;
-  box-shadow: 0 0 10px #000000;
-  background: rgba(255, 255, 255, 0.486);
+  box-shadow: 0 0 5px #000000;
+  background: rgba(37, 37, 37, 0.5);
 }
 
 #email {
