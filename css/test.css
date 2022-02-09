@@ -378,7 +378,12 @@ form {
 
 @media screen and (max-width: 576px) {
   .home-row {
-    width: 125%;
+    width: 100%;
+  }
+  .form-button {
+    width: 60%;
+    padding: 0.5rem;
+    
   }
 }
 
