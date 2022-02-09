@@ -3,7 +3,6 @@ const formRow = document.querySelector('.home-row');
 const homeContainer = document.querySelector('.vimeo-wrapper')
 
 navbarTogglerIcon.addEventListener('click', () => {
-  formRow.style.marginTop = '6rem';
-  homeContainer.style.height = '120vh'
-
+  formRow.style.display = 'none';
+  // homeContainer.style.height = '120vh'
 });
