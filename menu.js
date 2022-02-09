@@ -24,13 +24,13 @@ window.addEventListener('resize', function () {
     contactForm.classList.remove('active-form');
     createWithUsButton.classList.add('hidden');
   } else {
-    // if (!hamburgerMenuPhone.classList.contains('collapsed')) {
-    //   createWithUsButton.classList.remove('hidden');
-    //   contactForm.classList.add('active-form');
-    // } else {
-    //   createWithUsButton.classList.add('hidden');
-    //   contactForm.classList.remove('active-form');
-    // }
+    if (!hamburgerMenuPhone.classList.contains('collapsed')) {
+      createWithUsButton.classList.remove('hidden');
+      contactForm.classList.add('active-form');
+    } else {
+      createWithUsButton.classList.add('hidden');
+      contactForm.classList.remove('active-form');
+    }
     console.log('click');
   }
 });
