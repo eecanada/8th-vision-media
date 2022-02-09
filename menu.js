@@ -1,18 +1,20 @@
-const navbarTogglerIcon = document.querySelector('.navbar-toggler-icon');
-const formRow = document.querySelector('.home-row');
-const homeContainer = document.querySelector('.vimeo-wrapper');
+
+// const formRow = document.querySelector('.home-row');
+
+const contactForm = document.querySelector('#contact-form-id')
 const createWithUsButton = document.querySelector('.create-button');
+const hamburgerMenuPhone = document.querySelector('#hamburger-menu-phone');
 
+function showHideContactForm() {
+  if (!hamburgerMenuPhone.classList.contains('collapsed')) {
+    createWithUsButton.classList.remove('hidden');
+    contactForm.classList.add('active-form')
+    
 
+  } else {
+    createWithUsButton.classList.add('hidden');
+    contactForm.classList.remove('active-form')
+  }
+}
 
-// if (!formRow.style.display) {
-//   navbarTogglerIcon.addEventListener('click', () => {
-//     formRow.style.display = 'none';
-//     createWithUsButton.style.display = 'block';
-//   });
-// } else {
-//   navbarTogglerIcon.addEventListener('click', () => {
-//     formRow.style.display = 'block';
-//     createWithUsButton.style.display = 'none';
-//   });
-// }
+hamburgerMenuPhone.addEventListener('click', showHideContactForm);

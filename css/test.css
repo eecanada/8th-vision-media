@@ -318,7 +318,9 @@ form {
   padding: 5px 5px;
 }
 
-#name:focus, #email:focus, #textarea:focus {
+#name:focus,
+#email:focus,
+#textarea:focus {
   outline: none !important;
   border: 2px solid white;
   box-shadow: 0 0 5px #ffffff;
@@ -374,15 +376,17 @@ form {
   pointer-events: none;
 }
 
-
 @media screen and (max-width: 576px) {
-  .home-row{
+  .home-row {
     width: 125%;
   }
 }
 
-
-
-.create-button{
+.hidden {
   display: none;
+}
+
+
+.active-form{
+  display: none
 }
