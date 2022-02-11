@@ -302,3 +302,96 @@ ul {
   background-color: rgba(255, 255, 255, 0.3);
   transform: scale(1.2);
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+#name {
+  border: 2px solid white;
+  background: none;
+  margin-bottom: 0.5rem;
+  color: rgb(255, 255, 255);
+  padding: 5px 5px;
+}
+
+#name:focus,
+#email:focus,
+#textarea:focus {
+  outline: none !important;
+  border: 2px solid white;
+  box-shadow: 0 0 5px #ffffff;
+  background: rgba(37, 37, 37, 0.5);
+}
+
+#email {
+  border: 2px solid white;
+  background: none;
+  margin-bottom: 0.5rem;
+  color: white;
+  padding: 5px 5px;
+}
+
+#textarea {
+  background: none;
+  border: 2px solid white;
+  color: white;
+  padding: 5px 5px;
+}
+
+::placeholder {
+  color: white;
+}
+
+.form-button {
+  background: none;
+  border: 2px solid white;
+  color: white;
+  width: 40%;
+  padding: 0.5rem;
+  transition: 0.5s ease;
+  margin-top: 1rem;
+}
+
+.form-button:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  /* transform: scale(1.2); */
+}
+
+.home-container {
+  width: 85%;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: hsla(0, 0%, 0%, 0.1);
+  pointer-events: none;
+}
+
+@media screen and (max-width: 576px) {
+  .home-row {
+    width: 100%;
+  }
+  .form-button {
+    width: 60%;
+    padding: 0.5rem;
+    
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+
+.active-form{
+  display: none
+}

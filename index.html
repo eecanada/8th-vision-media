@@ -92,6 +92,7 @@
       <nav class="navbar navbar-expand-xxxxxxl phone-nav">
         <div class="container-fluid">
           <button
+            id="hamburger-menu-phone"
             class="navbar-toggler custom-toggler ms-auto"
             type="button"
             data-bs-toggle="collapse"
@@ -194,22 +195,58 @@
         ></iframe>
         <div>
           <div class="container-fluid home-container">
-            <div class="row home-row">
-              <div class="col home-col">
-                <!-- <p class="home-text">
-                           We create powerful visual content for brands that help drive
-                           sales, growth and engagement.
-                           </p> -->
-                <button
-                  onClick="window.open('https://www.8thvisionmedia.com/contact');"
-                  class="create-button"
-                >
-                  <a
-                    href="./contact.html
+            <button
+              onClick="window.open('https://www.8thvisionmedia.com/contact');"
+              class="create-button hidden"
+            >
+              <a
+                href="./contact.html
                            "
-                    >CREATE WITH US
-                  </a>
-                </button>
+                >CREATE WITH US
+              </a>
+            </button>
+            <div class="row home-row " id="contact-form-id">
+              <div class="form-container col">
+                <form
+                  class="contact-form form"
+                  action="https://formspree.io/f/mqkwdjpd"
+                  method="POST"
+                >
+                  <label for="name">Name</label>
+                  <input
+                    style="text-align: left"
+                    class="place-holder"
+                    type="text"
+                    name="Name"
+                    id="name"
+                    placeholder="Type your name"
+                  />
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    name="Email"
+                    id="email"
+                    placeholder="Type your email"
+                  />
+                  <label for="textarea">Enquiry</label>
+                  <textarea
+                    placeholder="How can we help you?"
+                    name="Enquiry"
+                    id="textarea"
+                    cols="40"
+                    rows="5"
+                  ></textarea>
+                  <!-- <p class="rereCAPTCHA-text">
+                      This site is protected by reCAPTCHA and the Google
+                      <a href="https://policies.google.com/privacy">Privacy Policy</a>
+                      and
+                      <a href="https://policies.google.com/terms">Terms of Service</a>
+                      apply.
+                   </p> -->
+                  <button class="form-button" type="submit">
+                    Let's Do This!
+                  </button>
+                </form>
               </div>
             </div>
 
@@ -248,6 +285,7 @@
           </div>
         </div>
       </div>
+      <div class="overlay"></div>
     </div>
 
     <script
@@ -255,6 +293,8 @@
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossorigin="anonymous"
     ></script>
+
+    <script src="/menu.js"></script>
 
     <!-- Calendly badge widget end -->
   </body>
